@@ -13,23 +13,4 @@ This repository contains implementation of popular Data Structures and Algorithm
 * [Graph](/Graph.java)
 
 
-## Algorithms
-* [Sorting Algorithms](/Sorting.java)
-  * Bubble Sort
-  * Selection Sort
-  * Insertion Sort
-  * Merge Sort
-  * Quick Sort
-* [Searching Algorithms](/Searching.java)
-  * Linear Search
-  * Binary Search
-* [Dynamic Programming](/DynamicProgramming.java)
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](/LICENSE)
 
