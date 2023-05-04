@@ -1,3 +1,5 @@
+//Take name as input and print a greeting message for that particular name.
+
 package firstjavaLECTURE;
 
 import java.util.Scanner;
