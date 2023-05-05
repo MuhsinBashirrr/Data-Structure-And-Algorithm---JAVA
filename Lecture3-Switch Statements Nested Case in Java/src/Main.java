@@ -7,11 +7,20 @@ public class Main {
         int day = input.nextInt();
 
         switch (day) {
-            case 1 -> System.out.println("Monday");
-            case 2 -> System.out.println("Tuesday");
-            case 3 -> System.out.println(" Wednesday");
-            case 4 -> System.out.println(" Thursday");
-            default -> System.out.println("Please enter a valid day");
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println(" Weekdays");
+                break;
+            case 6:
+            case 7:
+                System.out.println(" Weekends");
+                break;
+            default:
+                System.out.println("Please enter a valid day");
+                break;
         }
 
 
