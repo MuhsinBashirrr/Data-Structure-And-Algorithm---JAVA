@@ -4,14 +4,23 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String fruit = input.next();
+        int day = input.nextInt();
 
-        switch (fruit) {
-            case "Mango" -> System.out.println("King of fruits");
-            case "Apple" -> System.out.println("Red in color");
-            case "Orange" -> System.out.println(" A round fruit");
-            case "Grapes" -> System.out.println(" A small fruit");
-            default -> System.out.println("Please enter a valid fruit");
+        switch (day) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println(" Weekdays");
+                break;
+            case 6:
+            case 7:
+                System.out.println(" Weekends");
+                break;
+            default:
+                System.out.println("Please enter a valid day");
+                break;
         }
 
 
