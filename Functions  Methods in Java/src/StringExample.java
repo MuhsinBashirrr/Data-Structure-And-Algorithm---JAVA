@@ -1,16 +1,16 @@
 public class StringExample {
     public static void main(String[] args) {
-       String message =  greet();
+       String personalized = myGreet("Muhsin BASHIR");
 
-        System.out.println(message);
+        System.out.println(personalized);
 
 
     }
-    static String greet(){
 
-        String greeting = "how are you";
-
-
-        return greeting;
+    static String myGreet(String name) {
+        String message = "Hello" + name;
+        return  message;
     }
-}
+
+    }
+
